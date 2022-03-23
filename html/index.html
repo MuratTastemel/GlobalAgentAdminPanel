@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<title>GlobalAgentLoginForm</title>
+<body>
+  <div class="container" id="container">
+    <div class="form-container sign-in-container">
+      <form method="POST" action="#" class="form" id="login">
+        <h1 class="form__title">Login</h1>
+        <div class="form__input-group">
+          <label for="username">Username: </label>
+          <input type="text" class="form__input" name="username" id="username" maxlength="20" required> 
+        </div>
+        <div class="form__input-group">
+          <label for="pass">Password: </label>
+          <input type="password" class="form__input" name="pass" id="pass" maxlength="20" required> 
+        </div>
+        <div class="form__input-group">
+          <button type="submit" class="form__button">Submit</button>
+        </div>
+     </form>
+    </div>
+   
+    
+   <div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-right">
+				<h1>Welcome to Global Agent</h1>
+				<p>Please Create an Account To Join Us</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+ </div>  
+ <script src="scripts/main.js"></script>
+</body>
+</html>
