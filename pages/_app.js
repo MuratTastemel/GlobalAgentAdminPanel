@@ -5,6 +5,9 @@ import "../assets/css/dark-style.css";
 import "../assets/css/transparent-style.css";
 import "../assets/css/skin-modes.css";
 import "../assets/css/icons.css";
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />
+}
 
 import React, { useEffect } from "react";
 
@@ -24,4 +27,3 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
