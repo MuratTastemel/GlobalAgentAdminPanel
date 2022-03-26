@@ -5,12 +5,10 @@ import "../assets/css/dark-style.css";
 import "../assets/css/transparent-style.css";
 import "../assets/css/skin-modes.css";
 import "../assets/css/icons.css";
-
-<<<<<<< HEAD
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
-=======
+
 import React, { useEffect } from "react";
 
 function SafeHydrate({ children }) {
@@ -29,5 +27,3 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
->>>>>>> b22c70549bd2313265109d46dfcaae94e24f624b
