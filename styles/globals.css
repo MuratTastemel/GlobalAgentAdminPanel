@@ -12,6 +12,7 @@ body {
   box-sizing: border-box;
 }
 
+ HEAD
 a {
   color: #0070f3;
   text-decoration: none;
@@ -25,3 +26,4 @@ img {
   max-width: 100%;
   display: block;
 }
+
